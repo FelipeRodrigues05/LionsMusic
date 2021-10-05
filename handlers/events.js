@@ -23,6 +23,8 @@ module.exports = async (client) => {
         }
     }
     console.log(table.toString().cyan);
+ } catch (err) {
+   console.log(err)
  }
 
 /**

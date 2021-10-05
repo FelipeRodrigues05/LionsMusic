@@ -23,6 +23,7 @@ module.exports = async (client) => {
         }
     }
     console.log(table.toString().cyan);
+  }
 
 /**
   * @INFO
